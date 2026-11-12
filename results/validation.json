@@ -1,0 +1,854 @@
+{
+ "awgn": {
+  "BPSK": [
+   {
+    "ebn0": 0,
+    "sim": 0.07773333333333333,
+    "theory": 0.07864960352514258,
+    "errors": 4664,
+    "bits": 60000
+   },
+   {
+    "ebn0": 2,
+    "sim": 0.03665,
+    "theory": 0.03750612835892598,
+    "errors": 2199,
+    "bits": 60000
+   },
+   {
+    "ebn0": 4,
+    "sim": 0.01225,
+    "theory": 0.012500818040737566,
+    "errors": 735,
+    "bits": 60000
+   },
+   {
+    "ebn0": 6,
+    "sim": 0.002322222222222222,
+    "theory": 0.002388290780932807,
+    "errors": 418,
+    "bits": 180000
+   },
+   {
+    "ebn0": 8,
+    "sim": 0.00018571428571428572,
+    "theory": 0.00019090777407599314,
+    "errors": 312,
+    "bits": 1680000
+   },
+   {
+    "ebn0": 10,
+    "sim": 3.6666666666666666e-06,
+    "theory": 3.87210821552205e-06,
+    "errors": 11,
+    "bits": 3000000
+   }
+  ],
+  "QPSK": [
+   {
+    "ebn0": 0,
+    "sim": 0.07866666666666666,
+    "theory": 0.07864960352514258,
+    "errors": 4720,
+    "bits": 60000
+   },
+   {
+    "ebn0": 2,
+    "sim": 0.0369,
+    "theory": 0.03750612835892598,
+    "errors": 2214,
+    "bits": 60000
+   },
+   {
+    "ebn0": 4,
+    "sim": 0.012783333333333334,
+    "theory": 0.012500818040737566,
+    "errors": 767,
+    "bits": 60000
+   },
+   {
+    "ebn0": 6,
+    "sim": 0.002311111111111111,
+    "theory": 0.002388290780932807,
+    "errors": 416,
+    "bits": 180000
+   },
+   {
+    "ebn0": 8,
+    "sim": 0.00019615384615384615,
+    "theory": 0.00019090777407599314,
+    "errors": 306,
+    "bits": 1560000
+   },
+   {
+    "ebn0": 10,
+    "sim": 3.3333333333333333e-06,
+    "theory": 3.87210821552205e-06,
+    "errors": 10,
+    "bits": 3000000
+   }
+  ],
+  "8PSK": [
+   {
+    "ebn0": 0,
+    "sim": 0.12346666666666667,
+    "theory": 0.1161878553326204,
+    "errors": 7408,
+    "bits": 60000
+   },
+   {
+    "ebn0": 2,
+    "sim": 0.0813,
+    "theory": 0.07932141777736901,
+    "errors": 4878,
+    "bits": 60000
+   },
+   {
+    "ebn0": 4,
+    "sim": 0.0465,
+    "theory": 0.04579094273467242,
+    "errors": 2790,
+    "bits": 60000
+   },
+   {
+    "ebn0": 6,
+    "sim": 0.021316666666666668,
+    "theory": 0.020479923891202893,
+    "errors": 1279,
+    "bits": 60000
+   },
+   {
+    "ebn0": 8,
+    "sim": 0.006333333333333333,
+    "theory": 0.006181051750685378,
+    "errors": 380,
+    "bits": 60000
+   },
+   {
+    "ebn0": 10,
+    "sim": 0.0010433333333333334,
+    "theory": 0.0010113953207128911,
+    "errors": 313,
+    "bits": 300000
+   },
+   {
+    "ebn0": 12,
+    "sim": 6.3e-05,
+    "theory": 6.337878823300328e-05,
+    "errors": 189,
+    "bits": 3000000
+   },
+   {
+    "ebn0": 14,
+    "sim": 1e-06,
+    "theory": 8.756326958310459e-07,
+    "errors": 3,
+    "bits": 3000000
+   }
+  ],
+  "16QAM": [
+   {
+    "ebn0": 0,
+    "sim": 0.14031666666666667,
+    "theory": 0.1391600135710116,
+    "errors": 8419,
+    "bits": 60000
+   },
+   {
+    "ebn0": 2,
+    "sim": 0.09663333333333333,
+    "theory": 0.09755935237670886,
+    "errors": 5798,
+    "bits": 60000
+   },
+   {
+    "ebn0": 4,
+    "sim": 0.057833333333333334,
+    "theory": 0.05861845741925091,
+    "errors": 3470,
+    "bits": 60000
+   },
+   {
+    "ebn0": 6,
+    "sim": 0.026783333333333333,
+    "theory": 0.027871306319660706,
+    "errors": 1607,
+    "bits": 60000
+   },
+   {
+    "ebn0": 8,
+    "sim": 0.009616666666666667,
+    "theory": 0.009247213737517437,
+    "errors": 577,
+    "bits": 60000
+   },
+   {
+    "ebn0": 10,
+    "sim": 0.0018333333333333333,
+    "theory": 0.0017541506178927247,
+    "errors": 330,
+    "bits": 180000
+   },
+   {
+    "ebn0": 12,
+    "sim": 0.00015454545454545454,
+    "theory": 0.00013865868881261898,
+    "errors": 306,
+    "bits": 1980000
+   },
+   {
+    "ebn0": 14,
+    "sim": 3.3333333333333333e-06,
+    "theory": 2.763208001687779e-06,
+    "errors": 10,
+    "bits": 3000000
+   }
+  ],
+  "64QAM": [
+   {
+    "ebn0": 2,
+    "sim": 0.15623333333333334,
+    "theory": 0.14612374061520977,
+    "errors": 9374,
+    "bits": 60000
+   },
+   {
+    "ebn0": 4,
+    "sim": 0.11825,
+    "theory": 0.11576406413570585,
+    "errors": 7095,
+    "bits": 60000
+   },
+   {
+    "ebn0": 6,
+    "sim": 0.08346666666666666,
+    "theory": 0.08347266672985075,
+    "errors": 5008,
+    "bits": 60000
+   },
+   {
+    "ebn0": 8,
+    "sim": 0.05195,
+    "theory": 0.052319798277216,
+    "errors": 3117,
+    "bits": 60000
+   },
+   {
+    "ebn0": 10,
+    "sim": 0.026033333333333332,
+    "theory": 0.026532609826146015,
+    "errors": 1562,
+    "bits": 60000
+   },
+   {
+    "ebn0": 12,
+    "sim": 0.0096,
+    "theory": 0.0097239850399706,
+    "errors": 576,
+    "bits": 60000
+   },
+   {
+    "ebn0": 14,
+    "sim": 0.0021666666666666666,
+    "theory": 0.0021540037571798963,
+    "errors": 390,
+    "bits": 180000
+   },
+   {
+    "ebn0": 16,
+    "sim": 0.00022318840579710144,
+    "theory": 0.00021717395915942019,
+    "errors": 308,
+    "bits": 1380000
+   },
+   {
+    "ebn0": 18,
+    "sim": 6e-06,
+    "theory": 6.35114807198657e-06,
+    "errors": 18,
+    "bits": 3000000
+   }
+  ],
+  "256QAM": [
+   {
+    "ebn0": 6,
+    "sim": 0.1416,
+    "theory": 0.12667015659411401,
+    "errors": 8496,
+    "bits": 60000
+   },
+   {
+    "ebn0": 9,
+    "sim": 0.0943,
+    "theory": 0.09075848057290681,
+    "errors": 5658,
+    "bits": 60000
+   },
+   {
+    "ebn0": 12,
+    "sim": 0.053,
+    "theory": 0.05202150754279857,
+    "errors": 3180,
+    "bits": 60000
+   },
+   {
+    "ebn0": 15,
+    "sim": 0.0198,
+    "theory": 0.019803337550499064,
+    "errors": 1188,
+    "bits": 60000
+   },
+   {
+    "ebn0": 18,
+    "sim": 0.0035,
+    "theory": 0.0034720959081085555,
+    "errors": 420,
+    "bits": 120000
+   },
+   {
+    "ebn0": 21,
+    "sim": 0.00013693693693693693,
+    "theory": 0.0001352374468007248,
+    "errors": 304,
+    "bits": 2220000
+   },
+   {
+    "ebn0": 24,
+    "sim": 3.3333333333333335e-07,
+    "theory": 2.720400744384966e-07,
+    "errors": 1,
+    "bits": 3000000
+   }
+  ]
+ },
+ "rayleigh": {
+  "BPSK": [
+   {
+    "ebn0": 0,
+    "sim": 0.14535,
+    "theory": 0.1464466094067262,
+    "errors": 8721,
+    "bits": 60000
+   },
+   {
+    "ebn0": 5,
+    "sim": 0.06378333333333333,
+    "theory": 0.06418268544952299,
+    "errors": 3827,
+    "bits": 60000
+   },
+   {
+    "ebn0": 10,
+    "sim": 0.023283333333333333,
+    "theory": 0.023268705377203824,
+    "errors": 1397,
+    "bits": 60000
+   },
+   {
+    "ebn0": 15,
+    "sim": 0.008033333333333333,
+    "theory": 0.00772300227202255,
+    "errors": 482,
+    "bits": 60000
+   },
+   {
+    "ebn0": 20,
+    "sim": 0.0025416666666666665,
+    "theory": 0.0024814048950054235,
+    "errors": 305,
+    "bits": 120000
+   },
+   {
+    "ebn0": 25,
+    "sim": 0.0007857142857142857,
+    "theory": 0.0007886993424678912,
+    "errors": 330,
+    "bits": 420000
+   },
+   {
+    "ebn0": 30,
+    "sim": 0.00024206349206349207,
+    "theory": 0.00024981265611340175,
+    "errors": 305,
+    "bits": 1260000
+   }
+  ],
+  "QPSK": [
+   {
+    "ebn0": 0,
+    "sim": 0.14783333333333334,
+    "theory": 0.1464466094067262,
+    "errors": 8870,
+    "bits": 60000
+   },
+   {
+    "ebn0": 5,
+    "sim": 0.06518333333333333,
+    "theory": 0.06418268544952299,
+    "errors": 3911,
+    "bits": 60000
+   },
+   {
+    "ebn0": 10,
+    "sim": 0.0241,
+    "theory": 0.023268705377203824,
+    "errors": 1446,
+    "bits": 60000
+   },
+   {
+    "ebn0": 15,
+    "sim": 0.008183333333333334,
+    "theory": 0.00772300227202255,
+    "errors": 491,
+    "bits": 60000
+   },
+   {
+    "ebn0": 20,
+    "sim": 0.002758333333333333,
+    "theory": 0.0024814048950054235,
+    "errors": 331,
+    "bits": 120000
+   },
+   {
+    "ebn0": 25,
+    "sim": 0.0008333333333333334,
+    "theory": 0.0007886993424678912,
+    "errors": 300,
+    "bits": 360000
+   },
+   {
+    "ebn0": 30,
+    "sim": 0.0002508333333333333,
+    "theory": 0.00024981265611340175,
+    "errors": 301,
+    "bits": 1200000
+   }
+  ],
+  "16QAM": [
+   {
+    "ebn0": 0,
+    "sim": 0.19703333333333334,
+    "theory": 0.1745540685656817,
+    "errors": 11822,
+    "bits": 60000
+   },
+   {
+    "ebn0": 5,
+    "sim": 0.10216666666666667,
+    "theory": 0.09475641067240369,
+    "errors": 6130,
+    "bits": 60000
+   },
+   {
+    "ebn0": 10,
+    "sim": 0.042633333333333336,
+    "theory": 0.039589803375031554,
+    "errors": 2558,
+    "bits": 60000
+   },
+   {
+    "ebn0": 15,
+    "sim": 0.015216666666666667,
+    "theory": 0.01399843363329345,
+    "errors": 913,
+    "bits": 60000
+   },
+   {
+    "ebn0": 20,
+    "sim": 0.004658333333333333,
+    "theory": 0.004601401256403903,
+    "errors": 559,
+    "bits": 120000
+   },
+   {
+    "ebn0": 25,
+    "sim": 0.0016041666666666667,
+    "theory": 0.0014735860960234382,
+    "errors": 385,
+    "bits": 240000
+   },
+   {
+    "ebn0": 30,
+    "sim": 0.000505,
+    "theory": 0.00046787292080825715,
+    "errors": 303,
+    "bits": 600000
+   }
+  ]
+ },
+ "ofdm": [
+  {
+   "snr": 0,
+   "ber_ls": 0.2847222222222222,
+   "ber_perfect": 0.21003472222222222,
+   "nmse_ls_db": -1.671920789421786,
+   "bits": 57600
+  },
+  {
+   "snr": 3,
+   "ber_ls": 0.20932291666666666,
+   "ber_perfect": 0.14774305555555556,
+   "nmse_ls_db": -4.633454207383977,
+   "bits": 57600
+  },
+  {
+   "snr": 6,
+   "ber_ls": 0.14133680555555556,
+   "ber_perfect": 0.09532986111111111,
+   "nmse_ls_db": -7.557869210203803,
+   "bits": 57600
+  },
+  {
+   "snr": 9,
+   "ber_ls": 0.08725694444444444,
+   "ber_perfect": 0.05586805555555555,
+   "nmse_ls_db": -10.411099972491513,
+   "bits": 57600
+  },
+  {
+   "snr": 12,
+   "ber_ls": 0.04663194444444444,
+   "ber_perfect": 0.02763888888888889,
+   "nmse_ls_db": -13.132587959259176,
+   "bits": 57600
+  },
+  {
+   "snr": 15,
+   "ber_ls": 0.01998263888888889,
+   "ber_perfect": 0.011423611111111112,
+   "nmse_ls_db": -15.625529750422588,
+   "bits": 57600
+  },
+  {
+   "snr": 18,
+   "ber_ls": 0.006857638888888889,
+   "ber_perfect": 0.0034027777777777776,
+   "nmse_ls_db": -17.762820093639306,
+   "bits": 57600
+  },
+  {
+   "snr": 21,
+   "ber_ls": 0.0016840277777777778,
+   "ber_perfect": 0.0006423611111111111,
+   "nmse_ls_db": -19.42957917758372,
+   "bits": 57600
+  },
+  {
+   "snr": 24,
+   "ber_ls": 0.00020833333333333335,
+   "ber_perfect": 5.208333333333334e-05,
+   "nmse_ls_db": -20.590372326152732,
+   "bits": 57600
+  },
+  {
+   "snr": 27,
+   "ber_ls": 0.0,
+   "ber_perfect": 0.0,
+   "nmse_ls_db": -21.314798363603042,
+   "bits": 57600
+  },
+  {
+   "snr": 30,
+   "ber_ls": 0.0,
+   "ber_perfect": 0.0,
+   "nmse_ls_db": -21.7293205145726,
+   "bits": 57600
+  }
+ ],
+ "papr_mean": 8.92660023320734,
+ "papr_99": 11.559754011779482,
+ "obw": [
+  {
+   "beta": 0.0,
+   "obw99": 1.0,
+   "nyquist": 1.0
+  },
+  {
+   "beta": 0.15,
+   "obw99": 1.046875,
+   "nyquist": 1.15
+  },
+  {
+   "beta": 0.25,
+   "obw99": 1.1015625,
+   "nyquist": 1.25
+  },
+  {
+   "beta": 0.35,
+   "obw99": 1.1640625,
+   "nyquist": 1.35
+  },
+  {
+   "beta": 0.5,
+   "obw99": 1.265625,
+   "nyquist": 1.5
+  },
+  {
+   "beta": 0.75,
+   "obw99": 1.453125,
+   "nyquist": 1.75
+  },
+  {
+   "beta": 1.0,
+   "obw99": 1.6328125,
+   "nyquist": 2.0
+  }
+ ],
+ "timing": [
+  {
+   "tool": "ber_curve",
+   "seconds": 0.38397761299995636,
+   "error": false
+  },
+  {
+   "tool": "constellation",
+   "seconds": 0.10822116200006349,
+   "error": false
+  },
+  {
+   "tool": "ofdm_link",
+   "seconds": 0.20873265299997001,
+   "error": false
+  },
+  {
+   "tool": "eye_diagram",
+   "seconds": 0.27676207800004704,
+   "error": false
+  },
+  {
+   "tool": "spectrum",
+   "seconds": 0.15612048700006653,
+   "error": false
+  },
+  {
+   "tool": "rf_link_budget",
+   "seconds": 0.03548438400002851,
+   "error": false
+  },
+  {
+   "tool": "vlc_los_gain",
+   "seconds": 0.0017695380000759542,
+   "error": false
+  }
+ ],
+ "tools": [
+  {
+   "name": "ber_curve",
+   "description": "Simulate bit error rate vs Eb/N0 and compare with theory.",
+   "params": [
+    "modulation",
+    "ebn0_start_db",
+    "ebn0_stop_db",
+    "step_db",
+    "channel",
+    "max_bits"
+   ]
+  },
+  {
+   "name": "constellation",
+   "description": "Received constellation after AWGN (and optional phase noise, RMS degrees). Returns EVM and symbol error rate.",
+   "params": [
+    "modulation",
+    "snr_db",
+    "phase_noise_deg",
+    "n_symbols"
+   ]
+  },
+  {
+   "name": "ofdm_link",
+   "description": "OFDM over a multipath channel with comb pilots. estimator: 'ls' (pilots + interpolation) or 'perfect'.",
+   "params": [
+    "subcarriers",
+    "cyclic_prefix",
+    "modulation",
+    "channel_taps",
+    "snr_db",
+    "pilot_spacing",
+    "estimator",
+    "n_symbols"
+   ]
+  },
+  {
+   "name": "eye_diagram",
+   "description": "Eye diagram after root-raised-cosine shaping and matched filtering.",
+   "params": [
+    "modulation",
+    "rolloff",
+    "snr_db",
+    "samples_per_symbol"
+   ]
+  },
+  {
+   "name": "spectrum",
+   "description": "Power spectral density of a root-raised-cosine shaped signal. Returns the 99% occupied bandwidth.",
+   "params": [
+    "modulation",
+    "rolloff",
+    "samples_per_symbol"
+   ]
+  },
+  {
+   "name": "rf_link_budget",
+   "description": "Free-space link budget: path loss, received power, noise floor, SNR and Shannon capacity.",
+   "params": [
+    "tx_power_dbm",
+    "tx_gain_dbi",
+    "rx_gain_dbi",
+    "frequency_ghz",
+    "distance_m",
+    "bandwidth_mhz",
+    "noise_figure_db"
+   ]
+  },
+  {
+   "name": "vlc_los_gain",
+   "description": "Line-of-sight DC gain of a visible light link (Lambertian LED, photodiode with concentrator).",
+   "params": [
+    "semi_angle_deg",
+    "detector_area_cm2",
+    "fov_deg",
+    "concentrator_index",
+    "distance_m",
+    "irradiance_deg",
+    "incidence_deg"
+   ]
+  }
+ ],
+ "transcript": [
+  {
+   "tool": "ber_curve",
+   "arguments": {
+    "modulation": "16QAM",
+    "ebn0_stop_db": 12
+   },
+   "result": {
+    "modulation": "16QAM",
+    "channel": "awgn",
+    "points": [
+     {
+      "ebn0_db": 0,
+      "ber_sim": 0.14031666666666667,
+      "ber_theory": 0.1391600135710116,
+      "errors": 8419,
+      "bits": 60000
+     },
+     {
+      "ebn0_db": 2,
+      "ber_sim": 0.09663333333333333,
+      "ber_theory": 0.09755935237670886,
+      "errors": 5798,
+      "bits": 60000
+     },
+     {
+      "ebn0_db": 4,
+      "ber_sim": 0.057833333333333334,
+      "ber_theory": 0.05861845741925091,
+      "errors": 3470,
+      "bits": 60000
+     },
+     {
+      "ebn0_db": 6,
+      "ber_sim": 0.026783333333333333,
+      "ber_theory": 0.027871306319660706,
+      "errors": 1607,
+      "bits": 60000
+     },
+     {
+      "ebn0_db": 8,
+      "ber_sim": 0.009616666666666667,
+      "ber_theory": 0.009247213737517437,
+      "errors": 577,
+      "bits": 60000
+     },
+     {
+      "ebn0_db": 10,
+      "ber_sim": 0.0019083333333333333,
+      "ber_theory": 0.0017541506178927247,
+      "errors": 229,
+      "bits": 120000
+     },
+     {
+      "ebn0_db": 12,
+      "ber_sim": 0.0001715686274509804,
+      "ber_theory": 0.00013865868881261898,
+      "errors": 175,
+      "bits": 1020000
+     }
+    ]
+   }
+  },
+  {
+   "tool": "constellation",
+   "arguments": {
+    "modulation": "64QAM",
+    "snr_db": 25
+   },
+   "result": {
+    "modulation": "64QAM",
+    "snr_db": 25.0,
+    "phase_noise_deg": 0,
+    "evm_percent": 5.569729977788041,
+    "symbol_error_rate": 0.0,
+    "symbols": 4000
+   }
+  },
+  {
+   "tool": "ofdm_link",
+   "arguments": {},
+   "result": {
+    "ber": 0.019166666666666665,
+    "bits": 28800,
+    "channel_nmse_db": -15.610738137695993,
+    "papr_mean_db": 8.882685524280312,
+    "papr_99_db": 11.272017450078927,
+    "data_subcarriers": 48
+   }
+  },
+  {
+   "tool": "eye_diagram",
+   "arguments": {},
+   "result": {
+    "rolloff": 0.35,
+    "snr_db": 30,
+    "eye_opening_ratio": 0.7305640051586669
+   }
+  },
+  {
+   "tool": "spectrum",
+   "arguments": {},
+   "result": {
+    "rolloff": 0.35,
+    "occupied_bw_99_over_symbol_rate": 1.1640625,
+    "theory": 1.35
+   }
+  },
+  {
+   "tool": "rf_link_budget",
+   "arguments": {},
+   "result": {
+    "fspl_db": 80.054,
+    "pr_dbm": -56.054,
+    "noise_dbm": -93.99,
+    "snr_db": 37.935,
+    "capacity_mbps": 252.042
+   }
+  },
+  {
+   "tool": "vlc_los_gain",
+   "arguments": {},
+   "result": {
+    "m": 1.0000000000000002,
+    "gain": 1.7546241102742407e-05,
+    "gain_db": -47.55815907299855
+   }
+  }
+ ],
+ "max_log10_error": {
+  "BPSK": 0.012183425545444866,
+  "QPSK": 0.014266376693737304,
+  "8PSK": 0.02638898798697436,
+  "16QAM": 0.04710914712303009,
+  "64QAM": 0.029052917633025446,
+  "256QAM": 0.04838894591433972
+ }
+}
